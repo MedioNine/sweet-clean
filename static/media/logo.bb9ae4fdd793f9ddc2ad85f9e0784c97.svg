@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="iconTitle">
+  <title id="iconTitle">Sweet Clean — іконка</title>
+  <desc>Кругла емблема з будинком і блиском</desc>
+
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="64" cy="64" r="62" fill="url(#g1)"/>
+
+  <!-- Будинок -->
+  <g transform="translate(22,26)" fill="#FFFFFF" opacity="0.95">
+    <path d="M40 0 L0 26 v38 h80 V26 L40 0 Z"/>
+    <rect x="26" y="36" width="12" height="16" rx="2" fill="#0f172a" opacity="0.95"/>
+    <rect x="46" y="36" width="12" height="16" rx="2" fill="#0f172a" opacity="0.95"/>
+  </g>
+
+  <!-- Блиск -->
+  <g transform="translate(86,36)" fill="#FFF59D">
+    <polygon points="0,6 3,10 8,12 3,14 0,18 -1,14 -7,12 -1,10"/>
+    <polygon points="18,28 21,34 28,36 21,38 18,44 15,38 8,36 15,34" transform="scale(.6) translate(8,6)"/>
+  </g>
+</svg>
