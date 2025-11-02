@@ -23,22 +23,7 @@ const networks = [
   {
     Icon: ViberSvg,
     onClick: () => {
-      const viberLink = `viber://chat?number=${MOBILE_NUMBER.replace(
-        /\D/g,
-        ""
-      )}`;
-      // Fallback if browser doesn't support viber:// protocol
-      if (
-        navigator.userAgent.includes("Android") ||
-        navigator.userAgent.includes("iPhone")
-      ) {
-        window.location.href = viberLink;
-      } else {
-        window.open(
-          `https://msng.link/o/?${MOBILE_NUMBER.replace(/\D/g, "")}=vi`,
-          "_blank"
-        );
-      }
+      window.open(`viber://chat?number=${MOBILE_NUMBER}`);
     },
   },
 ];
