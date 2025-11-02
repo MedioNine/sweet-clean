@@ -1,0 +1,24 @@
+#main {
+  background: #FFEBD4;
+  background: linear-gradient(180deg, rgba(255, 235, 212, 1) 0%, rgba(240, 201, 103, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#advantages {
+  background: #FFEBD4;
+  background: linear-gradient(0deg, rgba(255, 235, 212, 1) 0%, rgba(240, 201, 103, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#services {
+  background: #FFEBD4;
+  background: linear-gradient(180deg, rgba(255, 235, 212, 1) 0%, rgba(240, 201, 103, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#faq {
+  background: #FFEBD4;
+  background: linear-gradient(0deg, rgba(255, 235, 212, 1) 0%, rgba(240, 201, 103, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.App {
+  text-align: center;
+}
+
