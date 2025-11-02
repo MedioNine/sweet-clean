@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sweet-clean/static/css/main.6009e95e.css",
-    "main.js": "/sweet-clean/static/js/main.9d03fd4f.js",
+    "main.js": "/sweet-clean/static/js/main.08e243be.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
     "static/media/viber.svg": "/sweet-clean/static/media/viber.b3d44b31b7f424a8b2a1de8b77daebca.svg",
     "static/media/logo.svg": "/sweet-clean/static/media/logo.bb9ae4fdd793f9ddc2ad85f9e0784c97.svg",
     "index.html": "/sweet-clean/index.html",
     "main.6009e95e.css.map": "/sweet-clean/static/css/main.6009e95e.css.map",
-    "main.9d03fd4f.js.map": "/sweet-clean/static/js/main.9d03fd4f.js.map",
+    "main.08e243be.js.map": "/sweet-clean/static/js/main.08e243be.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6009e95e.css",
-    "static/js/main.9d03fd4f.js"
+    "static/js/main.08e243be.js"
   ]
 }
