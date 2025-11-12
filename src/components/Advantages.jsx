@@ -28,7 +28,7 @@ const advantages = [
 
 export default function Advantages() {
   return (
-    <Section id="advantages" title="Наші переваги" highligtColor="#fff">
+    <Section id="advantages" title="Наші переваги">
       <Grid
         container
         spacing={3}
@@ -67,7 +67,7 @@ export default function Advantages() {
                     width: "60%",
                     height: "60%",
                     display: "block",
-                    color: "#e3ba81",
+                    color: "#faaf46",
                   },
                 }}
               >

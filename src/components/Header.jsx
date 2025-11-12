@@ -17,6 +17,9 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import { ReactComponent as LogoSvg } from "../assets/logo.svg";
 import Network from "./Network";
 
+import { useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+
 import { keyframes } from "@mui/system";
 import { MOBILE_NUMBER } from "../constants/contacts";
 
@@ -39,6 +42,9 @@ const navItems = [
 ];
 
 export default function Header(props) {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   const { winProp } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -105,7 +111,14 @@ export default function Header(props) {
               component="div"
               sx={{ flexGrow: 1, display: "inline", textAlign: "left" }}
             >
-              Sweet Clean
+              {isMobile ? (
+                <>
+                  Sweet Clean
+                  <Typography>з любов'ю до Вас!</Typography>
+                </>
+              ) : (
+                "Sweet Clean - з любов'ю до Вас!"
+              )}
             </Typography>
           </Stack>
           <Box>
@@ -120,7 +133,8 @@ export default function Header(props) {
               <Button
                 startIcon={<LocalPhoneIcon />}
                 sx={{
-                  background: "#bbc195",
+                  background: "#FFD700",
+                  color: "rgba(0, 0, 0, 0.84) !important",
                   display: { xs: "none", md: "inline-flex" },
                 }}
               >
@@ -131,7 +145,7 @@ export default function Header(props) {
                   display: {
                     xs: "inline-flex",
                     md: "none",
-                    background: "#bbc195",
+                    background: "#FFD700",
                   },
                 }}
               >
@@ -140,7 +154,7 @@ export default function Header(props) {
                     animation: `${ring} 1.2s infinite ease-in-out`,
                     transformOrigin: "bottom center",
                     "&:hover": {
-                      background: "#a9b182",
+                      background: "#FFD700",
                     },
                   }}
                 />

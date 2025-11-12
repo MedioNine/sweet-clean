@@ -2,35 +2,66 @@ import ServiceCard from "./ServiceCard.jsx";
 import { Grid } from "@mui/material";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import CleaningServicesOutlinedIcon from "@mui/icons-material/CleaningServicesOutlined";
-import DryCleaningOutlinedIcon from "@mui/icons-material/DryCleaningOutlined";
+import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
 import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
+import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
 import Section from "./Section.jsx";
 
 const services = [
   {
-    title: "Прибирання під'їздів",
-    subtitle: "Ляля фа фа ляля фафа фів",
+    title: "Генеральне прибирання",
+    subtitle: "Збереження часу – 1-2 тижні",
+    details: [
+      "глибока чистка поверхонь",
+      "видалення застарілих забруднень",
+      "миття стелі, стін, скла, всіх інших поверхонь",
+    ],
     Icon: ApartmentIcon,
   },
   {
-    title: "Генеральне прибирання",
-    subtitle: "Ляля фа фа ляля фафа фівЛяля фа фа ляля фафа ф",
+    title: "Поточне прибирання",
+    subtitle: "збереження часу – 3-4 години в день",
+    details: [
+      "видалення забруднень, які виникають в процесі щоденного користування будівлі",
+      "не стосується важкодоступних місць та відмивання складних зафіксованих забруднень",
+    ],
     Icon: CleaningServicesOutlinedIcon,
   },
   {
-    title: "Підтримуюче прибирання",
-    subtitle: "Ляля фа фа ляля фафа фів",
-    Icon: DryCleaningOutlinedIcon,
+    title: "Після квартирантів / перед заселенням",
+    subtitle: "Збереження часу – 1-2 дні",
+    details: [
+      "повне миття поверхонь",
+      "видалення запахів",
+      "дезінфекція сантехніки",
+      "обробка кухні від жиру",
+      "прибирання під меблями",
+    ],
+    Icon: PeopleAltOutlinedIcon,
   },
   {
     title: "Після ремонту",
-    subtitle: "Ляля фа фа ляля фафа фЛяля фа фа ляля фафа ф",
+    subtitle: "Збереження часу – 2-3 дні",
+    details: [
+      "видалення будівельного пилу з усіх поверхонь",
+      "миття вікон, рам, підвіконь від штукатурки, фарби",
+      "очищення плитки, підлоги від клею, цементу",
+      "протирка стін, меблів, освітлення",
+      "полірування поверхонь",
+      "вологе прибирання",
+    ],
     Icon: ConstructionOutlinedIcon,
+  },
+  {
+    title: "Прибирання під’їздів ",
+    subtitle: "",
+    details: [],
+    Icon: BusinessOutlinedIcon,
   },
 ];
 export default function Services() {
   return (
-    <Section id="services" title="Послуги">
+    <Section id="services" title="З нами ти зможеш знайти багато часу: ">
       <Grid
         container
         spacing={3}

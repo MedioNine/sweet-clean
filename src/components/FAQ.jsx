@@ -4,6 +4,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Section from "./Section";
+import Box from "@mui/material/Box";
 
 const questions = [
   {
@@ -46,23 +47,25 @@ const questions = [
 
 export default function FAQ() {
   return (
-    <Section id="faq" title="Нас часто запитують" highligtColor="#fff">
-      {questions.map((question) => (
-        <Accordion key={question.title}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-          >
-            <Typography component="span" sx={{ fontWeight: "700" }}>
-              {question.title}
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails sx={{ textAlign: "left" }}>
-            {question.answer}
-          </AccordionDetails>
-        </Accordion>
-      ))}
+    <Section id="faq" title="Нас часто запитують">
+      <Box pb={3}>
+        {questions.map((question) => (
+          <Accordion key={question.title}>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1-content"
+              id="panel1-header"
+            >
+              <Typography component="span" sx={{ fontWeight: "700" }}>
+                {question.title}
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails sx={{ textAlign: "left" }}>
+              {question.answer}
+            </AccordionDetails>
+          </Accordion>
+        ))}
+      </Box>
     </Section>
   );
 }

@@ -16,8 +16,8 @@ function App() {
       <GlobalHtmlStyles>
         <Header />
         <QuoteSection />
-        <Advantages />
         <Services />
+        <Advantages />
         <FAQ />
         <Footer />
       </GlobalHtmlStyles>
