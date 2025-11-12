@@ -6,10 +6,10 @@ import CssBaseline from "@mui/material/CssBaseline";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#7B3F00", // custom primary color
+      main: "#000", // custom primary color
     },
     background: {
-      default: "#7B3F00",
+      default: "#000",
     },
   },
   typography: {
@@ -28,7 +28,7 @@ const theme = createTheme({
           },
           // target buttons that live inside AppBar
           ".MuiAppBar-root &": {
-            color: "#FFD700", // gold for buttons inside AppBar
+            color: "#f5c33d", // gold for buttons inside AppBar
           },
         },
       },
@@ -36,7 +36,7 @@ const theme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          color: "#FFD700",
+          color: "#f5c33d",
         },
       },
     },

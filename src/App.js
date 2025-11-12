@@ -6,9 +6,7 @@ import QuoteSection from './components/QuoteSection.jsx';
 import Services from './components/Services.jsx';
 
 import Footer from './components/Footer.jsx';
-import FAQ from './components/FAQ.jsx';
 import GlobalHtmlStyles from './components/GlobalHtmlStyles.jsx';
-import Advantages from './components/Advantages.jsx';
 
 function App() {
   return (
@@ -17,8 +15,6 @@ function App() {
         <Header />
         <QuoteSection />
         <Services />
-        <Advantages />
-        <FAQ />
         <Footer />
       </GlobalHtmlStyles>
     </div>

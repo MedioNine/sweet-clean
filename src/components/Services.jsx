@@ -6,6 +6,9 @@ import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
 import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
 import Section from "./Section.jsx";
+import { MOBILE_NUMBER } from "../constants/contacts";
+import Button from "@mui/material/Button";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 const services = [
   {
@@ -57,6 +60,20 @@ const services = [
     subtitle: "",
     details: [],
     Icon: BusinessOutlinedIcon,
+    AdditionalContent: (
+      <a href={`tel:${MOBILE_NUMBER}`}>
+        <Button
+          startIcon={<LocalPhoneIcon />}
+          sx={{
+            background: "#f5c33d",
+            color: "rgba(0, 0, 0, 0.84) !important",
+            width: "100%",
+          }}
+        >
+          Зателефонувати
+        </Button>
+      </a>
+    ),
   },
 ];
 export default function Services() {

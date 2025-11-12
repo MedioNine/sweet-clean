@@ -133,7 +133,7 @@ export default function Header(props) {
               <Button
                 startIcon={<LocalPhoneIcon />}
                 sx={{
-                  background: "#FFD700",
+                  background: "#f5c33d",
                   color: "rgba(0, 0, 0, 0.84) !important",
                   display: { xs: "none", md: "inline-flex" },
                 }}
@@ -145,7 +145,7 @@ export default function Header(props) {
                   display: {
                     xs: "inline-flex",
                     md: "none",
-                    background: "#FFD700",
+                    background: "#f5c33d",
                   },
                 }}
               >
@@ -154,7 +154,7 @@ export default function Header(props) {
                     animation: `${ring} 1.2s infinite ease-in-out`,
                     transformOrigin: "bottom center",
                     "&:hover": {
-                      background: "#FFD700",
+                      background: "#f5c33d",
                     },
                   }}
                 />

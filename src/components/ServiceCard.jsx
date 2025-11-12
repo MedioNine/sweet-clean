@@ -9,7 +9,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 export default function ServiceCard({ service }) {
-  const { Icon, title, subtitle, details } = service;
+  const { Icon, title, subtitle, details, AdditionalContent } = service;
 
   return (
     <Card sx={{ width: 310 }}>
@@ -55,7 +55,9 @@ export default function ServiceCard({ service }) {
             </AccordionDetails>
           </Accordion>
         ) : (
-          <div style={{ height: "48px" }}></div>
+          <div style={{ height: "48px", width: "100%", margin: "0 8px" }}>
+            {AdditionalContent != null && AdditionalContent}
+          </div>
         )}
       </CardActions>
     </Card>
