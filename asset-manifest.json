@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/sweet-clean/static/css/main.6009e95e.css",
-    "main.js": "/sweet-clean/static/js/main.08e243be.js",
+    "main.css": "/sweet-clean/static/css/main.78337f7e.css",
+    "main.js": "/sweet-clean/static/js/main.b8312d47.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
+    "static/media/video-background-wide.mp4": "/sweet-clean/static/media/video-background-wide.7ded5288db24779f3b7b.mp4",
+    "static/media/video-background.mp4": "/sweet-clean/static/media/video-background.35119a6c4d78253bc487.mp4",
+    "static/media/logo.svg": "/sweet-clean/static/media/logo.350e5d3f1c21c847636e661f9143a6b7.svg",
     "static/media/viber.svg": "/sweet-clean/static/media/viber.b3d44b31b7f424a8b2a1de8b77daebca.svg",
-    "static/media/logo.svg": "/sweet-clean/static/media/logo.bb9ae4fdd793f9ddc2ad85f9e0784c97.svg",
     "index.html": "/sweet-clean/index.html",
-    "main.6009e95e.css.map": "/sweet-clean/static/css/main.6009e95e.css.map",
-    "main.08e243be.js.map": "/sweet-clean/static/js/main.08e243be.js.map",
+    "main.78337f7e.css.map": "/sweet-clean/static/css/main.78337f7e.css.map",
+    "main.b8312d47.js.map": "/sweet-clean/static/js/main.b8312d47.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6009e95e.css",
-    "static/js/main.08e243be.js"
+    "static/css/main.78337f7e.css",
+    "static/js/main.b8312d47.js"
   ]
 }
