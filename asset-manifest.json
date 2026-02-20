@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sweet-clean/static/css/main.ca079202.css",
-    "main.js": "/sweet-clean/static/js/main.9ef1440a.js",
+    "main.js": "/sweet-clean/static/js/main.9380c86d.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
     "static/media/video-background-wide.mp4": "/sweet-clean/static/media/video-background-wide.7ded5288db24779f3b7b.mp4",
     "static/media/video-background.mp4": "/sweet-clean/static/media/video-background.35119a6c4d78253bc487.mp4",
@@ -11,11 +11,11 @@
     "static/media/tiktok.svg": "/sweet-clean/static/media/tiktok.f884b058e6bf4a5b4d9b042fb51bbd96.svg",
     "index.html": "/sweet-clean/index.html",
     "main.ca079202.css.map": "/sweet-clean/static/css/main.ca079202.css.map",
-    "main.9ef1440a.js.map": "/sweet-clean/static/js/main.9ef1440a.js.map",
+    "main.9380c86d.js.map": "/sweet-clean/static/js/main.9380c86d.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca079202.css",
-    "static/js/main.9ef1440a.js"
+    "static/js/main.9380c86d.js"
   ]
 }
