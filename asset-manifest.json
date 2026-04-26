@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sweet-clean/static/css/main.1ae4fd6f.css",
-    "main.js": "/sweet-clean/static/js/main.a4094318.js",
+    "main.css": "/sweet-clean/static/css/main.5e531249.css",
+    "main.js": "/sweet-clean/static/js/main.4bcab743.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
     "static/media/video-background-wide.mp4": "/sweet-clean/static/media/video-background-wide.7ded5288db24779f3b7b.mp4",
     "static/media/video-background.mp4": "/sweet-clean/static/media/video-background.35119a6c4d78253bc487.mp4",
@@ -10,12 +10,13 @@
     "static/media/viber.svg": "/sweet-clean/static/media/viber.b3d44b31b7f424a8b2a1de8b77daebca.svg",
     "static/media/tiktok.svg": "/sweet-clean/static/media/tiktok.f884b058e6bf4a5b4d9b042fb51bbd96.svg",
     "index.html": "/sweet-clean/index.html",
-    "main.1ae4fd6f.css.map": "/sweet-clean/static/css/main.1ae4fd6f.css.map",
-    "main.a4094318.js.map": "/sweet-clean/static/js/main.a4094318.js.map",
+    "static/media/leaf.svg": "/sweet-clean/static/media/leaf.230a53a3ff53804665e7718bf6569fc5.svg",
+    "main.5e531249.css.map": "/sweet-clean/static/css/main.5e531249.css.map",
+    "main.4bcab743.js.map": "/sweet-clean/static/js/main.4bcab743.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ae4fd6f.css",
-    "static/js/main.a4094318.js"
+    "static/css/main.5e531249.css",
+    "static/js/main.4bcab743.js"
   ]
 }
