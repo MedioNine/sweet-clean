@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sweet-clean/static/css/main.b9fa1cf7.css",
-    "main.js": "/sweet-clean/static/js/main.0505e5ad.js",
+    "main.css": "/sweet-clean/static/css/main.a01344b4.css",
+    "main.js": "/sweet-clean/static/js/main.eff45308.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
     "static/media/video-background-smoke.mp4": "/sweet-clean/static/media/video-background-smoke.755d170f60e7d1b358d2.mp4",
     "static/media/video-background-wide.mp4": "/sweet-clean/static/media/video-background-wide.7ded5288db24779f3b7b.mp4",
@@ -21,12 +21,12 @@
     "index.html": "/sweet-clean/index.html",
     "static/media/coffee-cup.svg": "/sweet-clean/static/media/coffee-cup.e2d1e9a5413d87735553c2acf22ee157.svg",
     "static/media/leaf.svg": "/sweet-clean/static/media/leaf.230a53a3ff53804665e7718bf6569fc5.svg",
-    "main.b9fa1cf7.css.map": "/sweet-clean/static/css/main.b9fa1cf7.css.map",
-    "main.0505e5ad.js.map": "/sweet-clean/static/js/main.0505e5ad.js.map",
+    "main.a01344b4.css.map": "/sweet-clean/static/css/main.a01344b4.css.map",
+    "main.eff45308.js.map": "/sweet-clean/static/js/main.eff45308.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9fa1cf7.css",
-    "static/js/main.0505e5ad.js"
+    "static/css/main.a01344b4.css",
+    "static/js/main.eff45308.js"
   ]
 }
