@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/sweet-clean/static/css/main.5e531249.css",
-    "main.js": "/sweet-clean/static/js/main.5e8f7216.js",
+    "main.css": "/sweet-clean/static/css/main.b9fa1cf7.css",
+    "main.js": "/sweet-clean/static/js/main.0505e5ad.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
+    "static/media/video-background-smoke.mp4": "/sweet-clean/static/media/video-background-smoke.755d170f60e7d1b358d2.mp4",
     "static/media/video-background-wide.mp4": "/sweet-clean/static/media/video-background-wide.7ded5288db24779f3b7b.mp4",
-    "static/media/video-background.mp4": "/sweet-clean/static/media/video-background.35119a6c4d78253bc487.mp4",
     "static/media/video-background-floor.mp4": "/sweet-clean/static/media/video-background-floor.daae80170b4093d6d9ad.mp4",
+    "static/media/after.jpg": "/sweet-clean/static/media/after.2435453e946c98eb7088.jpg",
+    "static/media/certificate.jpg": "/sweet-clean/static/media/certificate.ed7031867d3b4268cd8c.jpg",
+    "static/media/before.jpg": "/sweet-clean/static/media/before.55f1ac8d79d40bd09341.jpg",
     "static/media/hourglass.svg": "/sweet-clean/static/media/hourglass.b1d983f175ad01c944586f1c358e2be6.svg",
     "static/media/logo.svg": "/sweet-clean/static/media/logo.350e5d3f1c21c847636e661f9143a6b7.svg",
     "static/media/viber.svg": "/sweet-clean/static/media/viber.b3d44b31b7f424a8b2a1de8b77daebca.svg",
     "static/media/star-shine.svg": "/sweet-clean/static/media/star-shine.50f27ed32e34900ac4771c20560f8a10.svg",
+    "static/media/nut.svg": "/sweet-clean/static/media/nut.d6d2094b312bb6e111ae06a02b4b1ee9.svg",
+    "static/media/leaf-wind.svg": "/sweet-clean/static/media/leaf-wind.7a643ce90b24d51607113704d4fd4623.svg",
+    "static/media/present.svg": "/sweet-clean/static/media/present.a72614f46920d7d6e5e5d205c27fd071.svg",
     "static/media/tiktok.svg": "/sweet-clean/static/media/tiktok.f884b058e6bf4a5b4d9b042fb51bbd96.svg",
     "static/media/feather.svg": "/sweet-clean/static/media/feather.445027e352bd54545463d7f12c951ef7.svg",
     "index.html": "/sweet-clean/index.html",
     "static/media/coffee-cup.svg": "/sweet-clean/static/media/coffee-cup.e2d1e9a5413d87735553c2acf22ee157.svg",
     "static/media/leaf.svg": "/sweet-clean/static/media/leaf.230a53a3ff53804665e7718bf6569fc5.svg",
-    "main.5e531249.css.map": "/sweet-clean/static/css/main.5e531249.css.map",
-    "main.5e8f7216.js.map": "/sweet-clean/static/js/main.5e8f7216.js.map",
+    "main.b9fa1cf7.css.map": "/sweet-clean/static/css/main.b9fa1cf7.css.map",
+    "main.0505e5ad.js.map": "/sweet-clean/static/js/main.0505e5ad.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e531249.css",
-    "static/js/main.5e8f7216.js"
+    "static/css/main.b9fa1cf7.css",
+    "static/js/main.0505e5ad.js"
   ]
 }
