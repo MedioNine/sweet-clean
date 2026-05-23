@@ -6,7 +6,7 @@
     <path d="M100 30 
              C140 30 170 70 100 170
              C30 70 60 30 100 30 Z"
-          fill="#6fbf73" stroke="#2e7d32" stroke-width="3"/>
+          fill="#419646" stroke="#2e7d32" stroke-width="3"/>
 
     <!-- Центральна жилка -->
     <line x1="100" y1="30" x2="100" y2="167"
