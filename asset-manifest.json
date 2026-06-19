@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sweet-clean/static/css/main.699121af.css",
+    "main.css": "/sweet-clean/static/css/main.0c2d6315.css",
     "main.js": "/sweet-clean/static/js/main.a6a3e0bc.js",
     "static/js/453.c9533909.chunk.js": "/sweet-clean/static/js/453.c9533909.chunk.js",
     "static/media/video-background-2.mp4": "/sweet-clean/static/media/video-background-2.212227179bc78d2aedee.mp4",
@@ -33,12 +33,12 @@
     "static/media/study.svg": "/sweet-clean/static/media/study.ecb9bc9aa46e768384f868ae0062cc90.svg",
     "static/media/spark.svg": "/sweet-clean/static/media/spark.14a3e6792b703365c926948ba0a764eb.svg",
     "static/media/key.svg": "/sweet-clean/static/media/key.73d3f601e186595ffd1b8b46f4e235db.svg",
-    "main.699121af.css.map": "/sweet-clean/static/css/main.699121af.css.map",
+    "main.0c2d6315.css.map": "/sweet-clean/static/css/main.0c2d6315.css.map",
     "main.a6a3e0bc.js.map": "/sweet-clean/static/js/main.a6a3e0bc.js.map",
     "453.c9533909.chunk.js.map": "/sweet-clean/static/js/453.c9533909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.699121af.css",
+    "static/css/main.0c2d6315.css",
     "static/js/main.a6a3e0bc.js"
   ]
 }
